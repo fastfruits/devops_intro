@@ -1,0 +1,6 @@
+#Docker files
+/Dockerfile
+
+#Kubernetes files
+/kubectl
+/minikube-darwin-arm64
