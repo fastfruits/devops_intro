@@ -1,0 +1,25 @@
+{
+  "name": "devops_intro",
+  "version": "1.0.0",
+  "description": "Practice for basic devops to learn!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fastfruits/devops_intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/fastfruits/devops_intro/issues"
+  },
+  "homepage": "https://github.com/fastfruits/devops_intro#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
