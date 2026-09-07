@@ -4,3 +4,6 @@
 #Kubernetes files
 /kubectl
 /minikube-darwin-arm64
+
+#Node
+node_modules
