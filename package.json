@@ -3,6 +3,16 @@
   "version": "1.0.0",
   "description": "Practice for basic devops to learn!",
   "main": "index.js",
+  "imports": {
+    "#config/*": "./src/config/*",
+    "#controllers/*": "./src/controllers/*",
+    "#middleware/*": "./src/middleware/*",
+    "#models/*": "./src/models/*",
+    "#routes/*": "./src/routes/*",
+    "#services/*": "./src/services/*",
+    "#utils/*": "./src/utils/*",
+    "#validations/*": "./src/validations/*"
+  },
   "scripts": {
     "dev": "node --watch src/index.js",
     "lint": "eslint .",
@@ -27,9 +37,13 @@
   "homepage": "https://github.com/fastfruits/devops_intro#readme",
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "drizzle-orm": "^0.45.2",
     "express": "^5.2.1",
+    "helmet": "^8.3.0",
+    "morgan": "^1.12.1",
     "winston": "^3.19.0"
   },
   "devDependencies": {
