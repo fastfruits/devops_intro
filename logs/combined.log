@@ -1,3 +1,9 @@
 {"level":"info","message":"Hello from acquisitions","service":"server-api","timestamp":"2026-09-21T17:04:55.895Z"}
 {"level":"info","message":"::1 - - [21/Sep/2026:17:04:55 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\"","service":"server-api","timestamp":"2026-09-21T17:04:55.905Z"}
 {"level":"info","message":"::1 - - [21/Sep/2026:17:04:55 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\"","service":"server-api","timestamp":"2026-09-21T17:04:55.996Z"}
+{"level":"info","message":"Hello from acquisitions","service":"server-api","timestamp":"2026-09-28T05:55:06.272Z"}
+{"level":"info","message":"::1 - - [28/Sep/2026:05:55:06 +0000] \"GET / HTTP/1.1\" 200 23 \"-\" \"HTTPie\"","service":"server-api","timestamp":"2026-09-28T05:55:06.280Z"}
+{"level":"info","message":"::1 - - [28/Sep/2026:05:55:25 +0000] \"GET /api HTTP/1.1\" 200 28 \"-\" \"HTTPie\"","service":"server-api","timestamp":"2026-09-28T05:55:25.663Z"}
+{"level":"info","message":"::1 - - [28/Sep/2026:05:55:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"HTTPie\"","service":"server-api","timestamp":"2026-09-28T05:55:38.049Z"}
+{"level":"info","message":"::1 - - [28/Sep/2026:05:55:57 +0000] \"POST /api/auth/sign-ip HTTP/1.1\" 404 156 \"-\" \"HTTPie\"","service":"server-api","timestamp":"2026-09-28T05:55:57.112Z"}
+{"level":"info","message":"::1 - - [28/Sep/2026:05:56:04 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"server-api","timestamp":"2026-09-28T05:56:04.827Z"}
